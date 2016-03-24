@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <title>Sortowanie</title>
+    <meta charset="UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+    <script type="text/javascript" src="scripts/jquery-1.12.2.min.js"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
+</head>
+<body>
+
+<div id="container">
+  <header>
+    <h1>
+            Wizualizacja algorytmów sortowania
+        </h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+    </ul>
+  </nav>
+  <div id="content">
+    <aside>
+        <div class="small-container">
+            <div id="quantity">Ilość elementów:</div>
+            <div id="quantity-JS"></div>
+            <input id="slider" min="3" max="14" step="1" value="6" type="range">
+        </div>
+        <div class="small-container" id="container-string">
+            <textarea id="string"></textarea>
+            <button id="add">Dodaj</button>
+        </div>
+        <div class="small-container">
+            <button id="random">Losuj</button>
+            <button id="start" class="start-button">Start animacji</button>
+            <button id="next" class="start-button">Kolejny krok</button>
+        </div>
+        <div class="small-container">
+            <div id="result">
+                <span id="label">Przed:</span>
+                <div id="result-before"></div>
+                <span id="label">Po:</span>
+                <div id="result-after"></div>
+            </div>
+        </div>
+        <div class="small-container">
+        <form>
+            <label class="label" for="r1">
+                <input id="r1" type="radio" name="sort" value="bubble"> Bąbelkowe
+            </label>
+            <label class="label" for="r2">
+                <input id="r2" type="radio" name="sort" value="quick"> Szybkie
+            </label>
+            <label class="label" for="r3">
+                <input id="r3" type="radio" name="sort" value="insertion"> Wstawianie
+            </label>
+            <label class="label" for="r4">
+                <input id="r4" type="radio" name="sort" value="selection"> Wybor
+            </label>
+            <label class="label" for="r5">
+                <input id="r5" type="radio" name="sort" value="counting"> Zliczanie
+            </label>
+            <label class="label" for="r6">
+                <input id="r6" type="radio" name="sort" value="radix"> Pozycyjne
+            </label>
+            <label class="label" for="r7">
+                <input id="r7" type="radio" name="sort" value="heap"> Kopcowanie
+            </label>
+        </form>
+      </div>
+      <div class="small-container">
+        <textarea id="actions"></textarea>
+      </div>
+    </aside>
+
+    <main>
+        <div id="comparasion">
+            
+        </div>
+<!--         <div id="testtest">
+            <div class="elements" id="te1">11</div>
+            <div class="elements" id="te2">12</div>
+            <div class="elements" id="te3">13</div>
+            <div class="elements" id="te1">11</div>
+            <div class="elements" id="te2">12</div>
+            <div class="elements" id="te3">13</div>
+            <div class="elements" id="te1">11</div>
+            <div class="elements" id="te2">12</div>
+            <div class="elements" id="te3">13</div>
+        </div> -->
+    </main>
+  </div>
+  <footer>
+    Copyright © Wizualizacja algorytmów sortowania, 2015
+  </footer>
+</div>
+</body>
+</html>
