@@ -108,7 +108,7 @@ label{
 
 #quantity {
 	display: inline-block;
-	width: 110px;
+	width: 115px;
 	padding: 0 0 0 5px;
 }
 
@@ -120,11 +120,6 @@ label{
 	display: block;
 	width: 80%;
 	margin: 5px 5px 0;
-}
-
-#random{
-	display: block;
-	margin: 0 5px 5px;
 }
 
 #start{
@@ -161,16 +156,21 @@ label{
 
 #string{
 	display: inline-block;
-	height: 20px;
+	height: 47px;
 	width: 52%;
 	margin: 0 5px;
 	resize: none;
 }
 
-#add{
+#buttons{
 	display: inline-block;
-	position: relative;
-	bottom: 3px;
+	width: 30%;
+	vertical-align: top;
+}
+
+.elementButton{
+	display: inline-block;
+	width: 80%;
 }
 
 #actions {

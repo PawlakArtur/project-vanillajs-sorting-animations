@@ -29,10 +29,37 @@
         </div>
         <div class="small-container" id="container-string">
             <textarea id="string"></textarea>
-            <button id="add">Dodaj</button>
+            <div id="buttons">
+                <button id="add" class="elementButton">Dodaj</button>
+                <button id="random" class="elementButton">Losuj</button> 
+            </div>
         </div>
         <div class="small-container">
-            <button id="random">Losuj</button>
+            <form>
+                <label class="label" for="r1">
+                    <input id="r1" type="radio" name="sort" value="bubble"> Bąbelkowe
+                </label>
+                <label class="label" for="r2">
+                    <input id="r2" type="radio" name="sort" value="quick"> Szybkie
+                </label>
+                <label class="label" for="r3">
+                    <input id="r3" type="radio" name="sort" value="insertion"> Wstawianie
+                </label>
+                <label class="label" for="r4">
+                    <input id="r4" type="radio" name="sort" value="selection"> Wybor
+                </label>
+                <label class="label" for="r5">
+                    <input id="r5" type="radio" name="sort" value="counting"> Zliczanie
+                </label>
+                <label class="label" for="r6">
+                    <input id="r6" type="radio" name="sort" value="radix"> Pozycyjne
+                </label>
+                <label class="label" for="r7">
+                    <input id="r7" type="radio" name="sort" value="heap"> Kopcowanie
+                </label>
+            </form>
+        </div>
+        <div class="small-container">
             <button id="start" class="start-button">Start animacji</button>
             <button id="next" class="start-button">Kolejny krok</button>
         </div>
@@ -45,33 +72,8 @@
             </div>
         </div>
         <div class="small-container">
-        <form>
-            <label class="label" for="r1">
-                <input id="r1" type="radio" name="sort" value="bubble"> Bąbelkowe
-            </label>
-            <label class="label" for="r2">
-                <input id="r2" type="radio" name="sort" value="quick"> Szybkie
-            </label>
-            <label class="label" for="r3">
-                <input id="r3" type="radio" name="sort" value="insertion"> Wstawianie
-            </label>
-            <label class="label" for="r4">
-                <input id="r4" type="radio" name="sort" value="selection"> Wybor
-            </label>
-            <label class="label" for="r5">
-                <input id="r5" type="radio" name="sort" value="counting"> Zliczanie
-            </label>
-            <label class="label" for="r6">
-                <input id="r6" type="radio" name="sort" value="radix"> Pozycyjne
-            </label>
-            <label class="label" for="r7">
-                <input id="r7" type="radio" name="sort" value="heap"> Kopcowanie
-            </label>
-        </form>
-      </div>
-      <div class="small-container">
-        <textarea id="actions"></textarea>
-      </div>
+            <textarea id="actions"></textarea>
+        </div>
     </aside>
 
     <main>
@@ -92,7 +94,7 @@
     </main>
   </div>
   <footer>
-    Copyright © Wizualizacja algorytmów sortowania, 2015
+    Copyright &copy; Wizualizacja algorytmów sortowania, 2015
   </footer>
 </div>
 </body>
