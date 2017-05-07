@@ -6,15 +6,21 @@ console.log(second);
 var el = document.getElementsByClassName('el');
 
 var domNode = anime({
-    targets: '#cssSelector .el',
+    targets: el,
     translateX: 250,
-    duration: 300,
-    loop: true,
-    direction: 'alternate',
+    duration: 1500,
     easing: 'easeInCubic',
+    autoplay: true,
+    loop: true
 });
+
 console.log(domNode);
-var play = document.getElementById("play");
+
+var play = document.getElementById('play');
 play.addEventListener('click', function() {
-    domNode.play;
+    domNode.play();
 })
+var pause = document.getElementById('pause');
+pause.addEventListener('click', function() {
+    domNode.pause();    
+});
