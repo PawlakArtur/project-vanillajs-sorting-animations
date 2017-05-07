@@ -1,0 +1,31 @@
+{
+  "name": "sorting-animation-jquery",
+  "version": "1.0.0",
+  "description": "Visualization of sorting algorithms. Work in progress.\r ##Used sorting algorithms:\r * bubble sort\r * quicksort\r * insertion sort\r * selection sort\r * counting  sort\r * radix sort\r * heapsort",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PawlakArtur/sorting-animation-JQuery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PawlakArtur/sorting-animation-JQuery/issues"
+  },
+  "homepage": "https://github.com/PawlakArtur/sorting-animation-JQuery#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "node-sass": "^4.5.2",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.17.0",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
